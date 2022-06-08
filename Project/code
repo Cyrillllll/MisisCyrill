@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I believe you</title>
+</head>
+<body>
+   <ul>
+       <a href="index.html"><li>Главная</li></a>
+       <a href="catalog.html"><li>Каталог</li></a>
+       <a href="#"><li>Регистрация</li></a>
+       <hr>
+   </ul>
+    <h1>Каталог</h1>
+    <hr>
+    <h1>Винсент ван Гог:</h1>
+    <h2>Звёздная ночь(1889)</h2>
+    <img src="img/909px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.webp" alt="product1" weight="200px" height="250px">
+    <br>
+    <img src="img/395px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.webp" alt="product1" weight="200px" height="250px">
+    <br>
+    <h2>Эдвард Мунк:</h2>
+    <img src="img/The_Scream.jpg" alt="product2" weight="200px" height="250px">
+</body>
+</html>
