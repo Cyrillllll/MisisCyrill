@@ -43,7 +43,54 @@ a {
     text-decoration: none;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: forestgreen;
     font-size: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+.pic {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+
+.h1_author {
+    margin-left: 50px;
+}
+
+.pic p {
+    width: 500px;
+    padding-left: 50px;
+}
+
+.container h2 {
+    margin-left: 450px;
+}
+input{
+    border: ipx solid #356EAD;
+    box-sizing
+}
+.content_page form{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    background: cornflowerblue;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500.
+        font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
