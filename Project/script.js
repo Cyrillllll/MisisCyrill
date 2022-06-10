@@ -1,6 +1,3 @@
-alert("Загадка от Фреско Жака");
-
-
 function gameGuess() {
     var guessNum = 5;
     var ourNum = prompt("Введите число:");
@@ -30,12 +27,22 @@ function reminder() {
 //setTimeout(reminder,5000);
 
 function valide() {
+    console.log("ghg");
     var name = document.getElementById("name").value;
     var password = document.getElementById("password").value;
-    var red_name = /^[a-zа-я]+$/i;
+
+    var reg_name = /^[a-zа-я]+$/i;
     var pass_name = /^[a-z0-9]{5,100}/i;
+
+    if (reg_name.test(name) == false) {
+        alert("Неверное ФИО");
+    }
+    if (pass_name.test(password) == false) {
+        alert("Неверный пароль");
+    }
 }
 
+
+
 document.querySelector(".button").addEventListener("click", valide);
-
-
+ 
